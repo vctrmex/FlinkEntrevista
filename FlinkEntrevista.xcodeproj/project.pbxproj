@@ -58,16 +58,48 @@
 		1D10A19725B5AC7E00A7738C /* FlinkEntrevista */ = {
 			isa = PBXGroup;
 			children = (
-				1D10A19825B5AC7E00A7738C /* AppDelegate.swift */,
-				1D10A19A25B5AC7E00A7738C /* SceneDelegate.swift */,
-				1D10A19C25B5AC7E00A7738C /* ViewController.swift */,
-				1D10A19E25B5AC7E00A7738C /* Main.storyboard */,
+				1D10A1B325B5ACAD00A7738C /* Configs */,
+				1D10A1B225B5ACA200A7738C /* Models */,
+				1D10A1B125B5AC9800A7738C /* Controllers */,
+				1D10A1B025B5AC8F00A7738C /* Views */,
 				1D10A1A425B5AC7F00A7738C /* Assets.xcassets */,
-				1D10A1A625B5AC7F00A7738C /* LaunchScreen.storyboard */,
 				1D10A1A925B5AC7F00A7738C /* Info.plist */,
 				1D10A1A125B5AC7E00A7738C /* FlinkEntrevista.xcdatamodeld */,
 			);
 			path = FlinkEntrevista;
+			sourceTree = "<group>";
+		};
+		1D10A1B025B5AC8F00A7738C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1D10A1A625B5AC7F00A7738C /* LaunchScreen.storyboard */,
+				1D10A19E25B5AC7E00A7738C /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1D10A1B125B5AC9800A7738C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1D10A19C25B5AC7E00A7738C /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		1D10A1B225B5ACA200A7738C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1D10A1B325B5ACAD00A7738C /* Configs */ = {
+			isa = PBXGroup;
+			children = (
+				1D10A19825B5AC7E00A7738C /* AppDelegate.swift */,
+				1D10A19A25B5AC7E00A7738C /* SceneDelegate.swift */,
+			);
+			path = Configs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
