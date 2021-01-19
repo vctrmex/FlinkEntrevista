@@ -14,6 +14,17 @@
 		1D10A1A325B5AC7E00A7738C /* FlinkEntrevista.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1D10A1A125B5AC7E00A7738C /* FlinkEntrevista.xcdatamodeld */; };
 		1D10A1A525B5AC7F00A7738C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D10A1A425B5AC7F00A7738C /* Assets.xcassets */; };
 		1D10A1A825B5AC7F00A7738C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D10A1A625B5AC7F00A7738C /* LaunchScreen.storyboard */; };
+		1D10A1B825B5BE4900A7738C /* AppStructs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D10A1B725B5BE4900A7738C /* AppStructs.swift */; };
+		1D10A1BB25B5C18500A7738C /* AppConstans.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D10A1BA25B5C18500A7738C /* AppConstans.swift */; };
+		1D10A1C225B5D10700A7738C /* RegisterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D10A1C125B5D10700A7738C /* RegisterController.swift */; };
+		1D10A1C525B5D31200A7738C /* AppExtencions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D10A1C425B5D31100A7738C /* AppExtencions.swift */; };
+		1D10A1C825B5D8C800A7738C /* TableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D10A1C725B5D8C800A7738C /* TableController.swift */; };
+		1D10A1D225B5E29000A7738C /* AppController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D10A1D125B5E29000A7738C /* AppController.swift */; };
+		1D10A1D525B5E3BF00A7738C /* Personajes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D10A1D425B5E3BF00A7738C /* Personajes.swift */; };
+		1D10A1D825B5E47300A7738C /* AppNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D10A1D725B5E47300A7738C /* AppNetwork.swift */; };
+		1D10A1DD25B65DD600A7738C /* PersonajesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D10A1DC25B65DD600A7738C /* PersonajesTableViewCell.swift */; };
+		1D10A1E025B664AB00A7738C /* AppProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D10A1DF25B664AB00A7738C /* AppProtocols.swift */; };
+		1D10A1E425B666CC00A7738C /* MoreController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D10A1E325B666CC00A7738C /* MoreController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +37,17 @@
 		1D10A1A425B5AC7F00A7738C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1D10A1A725B5AC7F00A7738C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1D10A1A925B5AC7F00A7738C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D10A1B725B5BE4900A7738C /* AppStructs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStructs.swift; sourceTree = "<group>"; };
+		1D10A1BA25B5C18500A7738C /* AppConstans.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstans.swift; sourceTree = "<group>"; };
+		1D10A1C125B5D10700A7738C /* RegisterController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterController.swift; sourceTree = "<group>"; };
+		1D10A1C425B5D31100A7738C /* AppExtencions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppExtencions.swift; sourceTree = "<group>"; };
+		1D10A1C725B5D8C800A7738C /* TableController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableController.swift; sourceTree = "<group>"; };
+		1D10A1D125B5E29000A7738C /* AppController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppController.swift; sourceTree = "<group>"; };
+		1D10A1D425B5E3BF00A7738C /* Personajes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Personajes.swift; sourceTree = "<group>"; };
+		1D10A1D725B5E47300A7738C /* AppNetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppNetwork.swift; sourceTree = "<group>"; };
+		1D10A1DC25B65DD600A7738C /* PersonajesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonajesTableViewCell.swift; sourceTree = "<group>"; };
+		1D10A1DF25B664AB00A7738C /* AppProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppProtocols.swift; sourceTree = "<group>"; };
+		1D10A1E325B666CC00A7738C /* MoreController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +104,11 @@
 			isa = PBXGroup;
 			children = (
 				1D10A19C25B5AC7E00A7738C /* ViewController.swift */,
+				1D10A1C125B5D10700A7738C /* RegisterController.swift */,
+				1D10A1C725B5D8C800A7738C /* TableController.swift */,
+				1D10A1D125B5E29000A7738C /* AppController.swift */,
+				1D10A1DC25B65DD600A7738C /* PersonajesTableViewCell.swift */,
+				1D10A1E325B666CC00A7738C /* MoreController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -89,6 +116,8 @@
 		1D10A1B225B5ACA200A7738C /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				1D10A1B725B5BE4900A7738C /* AppStructs.swift */,
+				1D10A1D425B5E3BF00A7738C /* Personajes.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -98,6 +127,10 @@
 			children = (
 				1D10A19825B5AC7E00A7738C /* AppDelegate.swift */,
 				1D10A19A25B5AC7E00A7738C /* SceneDelegate.swift */,
+				1D10A1BA25B5C18500A7738C /* AppConstans.swift */,
+				1D10A1C425B5D31100A7738C /* AppExtencions.swift */,
+				1D10A1D725B5E47300A7738C /* AppNetwork.swift */,
+				1D10A1DF25B664AB00A7738C /* AppProtocols.swift */,
 			);
 			path = Configs;
 			sourceTree = "<group>";
@@ -172,8 +205,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D10A1BB25B5C18500A7738C /* AppConstans.swift in Sources */,
+				1D10A1D225B5E29000A7738C /* AppController.swift in Sources */,
+				1D10A1D825B5E47300A7738C /* AppNetwork.swift in Sources */,
 				1D10A19D25B5AC7E00A7738C /* ViewController.swift in Sources */,
 				1D10A1A325B5AC7E00A7738C /* FlinkEntrevista.xcdatamodeld in Sources */,
+				1D10A1C825B5D8C800A7738C /* TableController.swift in Sources */,
+				1D10A1C525B5D31200A7738C /* AppExtencions.swift in Sources */,
+				1D10A1D525B5E3BF00A7738C /* Personajes.swift in Sources */,
+				1D10A1C225B5D10700A7738C /* RegisterController.swift in Sources */,
+				1D10A1DD25B65DD600A7738C /* PersonajesTableViewCell.swift in Sources */,
+				1D10A1E425B666CC00A7738C /* MoreController.swift in Sources */,
+				1D10A1B825B5BE4900A7738C /* AppStructs.swift in Sources */,
+				1D10A1E025B664AB00A7738C /* AppProtocols.swift in Sources */,
 				1D10A19925B5AC7E00A7738C /* AppDelegate.swift in Sources */,
 				1D10A19B25B5AC7E00A7738C /* SceneDelegate.swift in Sources */,
 			);
