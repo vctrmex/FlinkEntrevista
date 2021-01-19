@@ -24,6 +24,9 @@ class ViewController: UIViewController {
             
             remember.isOn = true
             
+        }else{
+            
+            remember.isOn = false
         }
         txtUser.text = user
         txtPass.text = pass
